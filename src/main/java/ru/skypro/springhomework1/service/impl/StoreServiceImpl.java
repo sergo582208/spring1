@@ -1,17 +1,16 @@
 package ru.skypro.springhomework1.service.impl;
 
 import org.springframework.stereotype.Service;
-import ru.skypro.springhomework1.service.storeService;
 
 import java.util.List;
 import java.util.Set;
 
 @Service
 
-public class storeServiceImpl extends ru.skypro.springhomework1.service.impl.basket {
+public class StoreServiceImpl implements ru.skypro.springhomework1.service.StoreServiceImpl {
     private final basket basket;
 
-    public storeServiceImpl(basket basket) {
+    public StoreServiceImpl(basket basket) {
         this.basket = basket;
     }
 
